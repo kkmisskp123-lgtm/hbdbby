@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Birthday Song 🎶</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true">♡ ♥ ♡ ♥ ♡</div>
+  <main class="card">
+    <p class="eyebrow">Press play and make a wish</p>
+    <h1>This song is <span>for you</span> 🎵</h1>
+    <p class="intro">Because your special day deserves its own little soundtrack.</p>
+
+    <div class="music-art" aria-hidden="true">
+      <div class="music-disc"><span>♫</span></div>
+      <div class="music-sparkle sparkle-one">✦</div>
+      <div class="music-sparkle sparkle-two">✧</div>
+    </div>
+
+    <section class="video-wrap" aria-label="Birthday song video">
+      <!-- Replace YOUR_YOUTUBE_VIDEO_ID below with the ID from a YouTube video.
+           Example: for youtube.com/watch?v=abc123, the ID is abc123.
+           Use a video that allows embedding. -->
+      <iframe
+        src="https://www.youtube.com/embed/K2aJTT29ZdU?si=43s6biFNfwSiBMXY"
+        title="Happy Birthday song"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </section>
+    <p class="hint">To add your song, open <code>birthday-song.html</code> and replace <code>YOUR_YOUTUBE_VIDEO_ID</code> with the video's ID.</p>
+
+    <nav class="nav-buttons">
+      <a class="button secondary" href="index.html">← Back</a>
+      <a class="button" href="letter.html">A letter for you 💌 <span>→</span></a>
+    </nav>
+    <p class="page-count">2 of 3 · Made with love</p>
+  </main>
+</body>
+</html>
